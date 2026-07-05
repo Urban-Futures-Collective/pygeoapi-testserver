@@ -1,3 +1,11 @@
+# pygeoapi-testserver
+
+a testserver implementation of pygeoapi
+
+# changelog
+
+* 2026-07-05 unforked from pygeoapi, dockerized as pygeoapi_growbike/deploy
+
 # pygeoapi
 
 [![DOI](https://zenodo.org/badge/121585259.svg)](https://zenodo.org/badge/latestdoi/121585259)
