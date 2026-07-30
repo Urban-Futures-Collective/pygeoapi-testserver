@@ -8,7 +8,7 @@ services:
     ports:
       - "9500:80"
     volumes:
-      - ./docker/bikebox-config-prod.yml:/pygeoapi/local.config.yml:ro
+      - ./docker/testserver-config-prod.yml:/pygeoapi/local.config.yml:ro
     environment:
       PYGEOAPI_CONFIG: /pygeoapi/local.config.yml
       PYGEOAPI_SERVER_URL: https://testserver.urbanfuturescollective.org
