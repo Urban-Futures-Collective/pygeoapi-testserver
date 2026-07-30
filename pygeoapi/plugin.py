@@ -78,7 +78,8 @@ PLUGINS = {
     'process': {
         'HelloWorld': 'pygeoapi.process.hello_world.HelloWorldProcessor',
         'ShapelyFunctions': 'pygeoapi.process.shapely_functions.ShapelyFunctionsProcessor',  # noqa: E501
-        'Echo': 'pygeoapi.process.echo.EchoProcessor'
+        'Echo': 'pygeoapi.process.echo.EchoProcessor',
+        'TestPolygon': 'pygeoapi.process.test_polygon.TestPolygonProcessor'
     },
     'process_manager': {
         'Dummy': 'pygeoapi.process.manager.dummy.DummyManager',
