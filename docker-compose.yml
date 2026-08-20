@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
     image: pygeoapi-testserver:prod
     container_name: pygeoapi-testserver
-    ports:
-      - "9500:80"
+    expose:
+      - "80"
     volumes:
       - ./docker/testserver-config-prod.yml:/pygeoapi/local.config.yml:ro
     environment:
